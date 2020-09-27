@@ -1,2 +1,4 @@
 server:
   port: 8500
+rating-service:
+  url: http://movie-service/movies/getMovieByID/
