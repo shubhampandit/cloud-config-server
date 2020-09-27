@@ -1,0 +1,4 @@
+server:
+  port: 8300
+movie-service:
+  apikey: 2f5093ae
