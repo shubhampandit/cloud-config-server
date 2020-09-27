@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: movie-service
+          uri: lb://movie-service
+          predicates:
+            - Path=/movies/**
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/users/**
+        - id: rating-service
+          uri: lb://rating-service
+          predicates:
+            - Path=/rating/**
+server:
+  port: 8989
