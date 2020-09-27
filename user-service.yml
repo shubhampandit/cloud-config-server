@@ -1,2 +1,4 @@
 server:
   port: 8400
+user-service:
+  url: http://rating-service/rating/getUserRatings/
