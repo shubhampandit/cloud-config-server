@@ -3,4 +3,4 @@ server:
 movie-service:
   urlById: http://www.omdbapi.com/?i=
   urlByTitle: http://www.omdbapi.com/?t=
-  apikey: &apikey=2f5093ae
+  apikey: '&apikey=2f5093ae'
